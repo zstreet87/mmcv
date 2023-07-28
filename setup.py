@@ -266,7 +266,7 @@ def get_extensions():
         # to compile those cpp files, so there is no need to add the
         # argument
         if platform.system() != 'Windows':
-            extra_compile_args['cxx'] = ['-std=c++14']
+            extra_compile_args['cxx'] = ['-std=c++17']
 
         include_dirs = []
 
